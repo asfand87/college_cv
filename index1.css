@@ -1,0 +1,209 @@
+body,
+html {
+  background-color: rgb(92, 89, 83);
+  font-family: "Playfair Display", serif;
+  color: white;
+}
+
+.main__container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.nav__bar {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  padding: 20px;
+}
+.nav__bar li {
+  list-style-type: none;
+  display: inline-block;
+  width: 20%;
+  margin-left: 40px;
+  font-size: xx-large;
+}
+.nav__bar a {
+  text-decoration: none;
+  color: white;
+}
+
+.main__content {
+  margin: 100px auto;
+}
+.image {
+  display: inline-block;
+  width: 20%;
+  margin-top: 130px;
+  margin-right: 10px;
+}
+.image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.heading {
+  display: inline-block;
+  width: 60%;
+  vertical-align: top;
+  margin-left: 50px;
+  font-size: 1.5em;
+  line-height: 1.3;
+  font-weight: 400;
+  word-spacing: 15px;
+}
+.heading h2 {
+  margin-left: 180px;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+/* education styling */
+.main__education > .education__table {
+  margin: 0 auto;
+  font-size: x-large;
+  border-collapse: collapse;
+}
+.education__table caption {
+  display: none;
+}
+
+.education__table tr,
+th,
+td {
+  text-align: start;
+  border: 1px solid white;
+  padding: 20px;
+}
+
+/* experience Styling */
+.main__contentExperience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.main__contentExperience p {
+  font-size: larger;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: start;
+  margin: 5px 5px;
+}
+
+.experience {
+  margin-top: 50px;
+  padding: 0px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.experience h4 {
+  font-size: 24px;
+  font-weight: 200;
+}
+.experience__companyName {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border: 1px solid black;
+}
+.experience__jobDesc {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: none;
+  border-right: 1px solid black;
+}
+
+.experience__duration {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  border-left: none;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+.experience__row {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.row__name {
+  width: 20%;
+  padding: 5px;
+  border-top: none;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.row__description {
+  width: 60%;
+  padding: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+}
+.row__duration {
+  width: 20%;
+  padding: 5px;
+  border-top: none;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+/* skills section */
+.main__skills > .skills__table {
+  margin: 0 auto;
+  font-size: x-large;
+  border-collapse: collapse;
+}
+.skills__table caption {
+  display: none;
+}
+
+.skills__table tr,
+th,
+td {
+  text-align: start;
+  border: 1px solid white;
+  padding: 20px;
+}
+
+/* footer */
+.footer__content {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  padding: 20px;
+}
+.footer__content li {
+  list-style-type: none;
+  display: inline-block;
+  width: 20%;
+  margin-left: 40px;
+  font-size: xx-large;
+}
+.footer__content a {
+  text-decoration: none;
+  color: white;
+}

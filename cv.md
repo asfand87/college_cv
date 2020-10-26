@@ -1,0 +1,1 @@
+Receptionist with over 7 years' experience working in both the public and private sectors. Diplomatic, personable, and adept at managing sensitive situations. Highly organized, self-motivated, and proficient with computers. Energetic and optimestic. Skilled in incident response, apprehension and prosecution support.Currently learning computer related skills.

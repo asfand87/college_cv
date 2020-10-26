@@ -1,0 +1,222 @@
+html,
+body {
+  background-image: url(https://i.stack.imgur.com/HCfU2.png);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-repeat: no-repeat, repeat;
+  background-size: 100%;
+  margin: 0;
+}
+
+.nav__bar {
+  max-width: 905px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+  font-size: x-large;
+}
+
+a:hover {
+  transition: 0.5s;
+  font-size: 150%;
+  color: rgb(79, 95, 93);
+}
+a:active {
+  color: black;
+}
+a:visited {
+  color: rgb(172, 172, 212);
+}
+.main__container {
+  max-width: 905px;
+  margin: 0 auto;
+}
+
+.main__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.image {
+  text-align: center;
+  margin-top: 80px;
+  margin-right: 20px;
+}
+.heading {
+  font-size: larger;
+  width: 70%;
+  margin-left: 20px;
+}
+.heading > p {
+  margin-top: 50px;
+  line-height: 2;
+}
+.heading > h2 {
+  text-align: start;
+  font-weight: 400;
+  margin-left: 150px;
+}
+.image > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 60%;
+}
+
+.footer__content {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 500;
+  margin-top: 75px;
+  margin-bottom: 10px;
+}
+
+/* education section styling starts here */
+
+.education__table {
+  display: flex;
+  border-collapse: collapse;
+  flex-direction: column;
+}
+
+.education__table > tr,
+th,
+td {
+  padding: 20px;
+  border: 1px solid black;
+  text-align: start;
+}
+
+.education__table > caption {
+  padding: 20px;
+  font-size: x-large;
+  font-weight: 400;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+/* experience styling starts here */
+.main__contentExperience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.main__contentExperience p {
+  font-size: larger;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.experience {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.experience__companyName {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border: 1px solid black;
+}
+.experience__jobDesc {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: none;
+  border-right: 1px solid black;
+}
+
+.experience__duration {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  border-left: none;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+.experience__row {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.row__name {
+  width: 20%;
+  padding: 5px;
+  border-top: none;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.row__description {
+  width: 60%;
+  padding: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+}
+.row__duration {
+  width: 20%;
+  padding: 5px;
+  border-top: none;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.skills__table {
+  width: 80%;
+  border-collapse: collapse;
+  background-color: rgb(242, 243, 230);
+}
+.skills__table > caption {
+  font-weight: 500;
+  margin: 20px;
+  font-size: x-large;
+}
+.skills__table tr td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.contact__details {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 0.3;
+  font-size: 200 !important;
+  font-weight: normal !important;
+}
+
+.contact__details span > a {
+  font-size: large;
+}
